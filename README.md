@@ -12,7 +12,7 @@ a). **Hash chains**. I this program we built a hash table using the chaining sch
 <li> find string — output "yes" or "no" (without quotes) depending on whether the table contains string or not. </li>
 <li> check 𝑖 — output the content of the 𝑖-th list in the table. Use spaces to separate the elements of the list. If 𝑖-th list is empty, output a blank line. </li></ul>
 
-In this script we use a toy example: <br>
+Toy example: <br>
    ```
    5
    12
