@@ -4,9 +4,12 @@ More specifically, the scripts in this repository are inspired in selected exerc
 Contributors: Oscar Zendejas Rangel, Alan García Zermeño @garciaza2015, Luis Celedon, y Emilio Villa @villacu <br>
 The following are short explanations of the scripts presented:
 1. Brackets:
+## 2. Priority ques and Disjoint Sets: <br>
+a) **Array to hipe**
+b) **Merging Tables **
 
 ## 3. Hash:<br>
-a). **Hash chains**. I this program we built a hash table using the chaining scheme in a telephone schedule, we call instructions: <ul>
+a). **Hash chains**. In this program we built a hash table using the chaining scheme in a telephone schedule, we call instructions: <ul>
 <li> add string — insert string into the table. If there is already such string in the hash table, then just ignore the query. </li>
 <li> del string — remove string from the table. If there is no such string in the hash table, then just ignore the query. </li>
 <li> find string — output "yes" or "no" (without quotes) depending on whether the table contains string or not. </li>
