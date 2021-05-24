@@ -14,30 +14,6 @@ string, we do hashing like:
 where m is the size of our hash table and p is a larger prime number,
 in this case p = 1000000007.
 And our hash table will be a dinamic array of lenght m.
-
-In this script we use a toy example '1.txt':
-5
-12
-add world
-add HellO
-check 4
-find World
-find world
-del world
-check 4
-del HellO
-add luck
-add GooD
-check 2
-del good
-
-And the program must print:
-HellO world
-no
-yes
-HellO 
-GooD luck
-
 '''
 
 def function(ha):
@@ -94,18 +70,12 @@ def hashing(hash_a):
 if __name__ == '__main__':
     prime = 1000000007
     x = 263
-    
-    f = open("01.txt", "r")             #Toy example
-    m = int(f.readline())
-    n = int(f.readline())
+    m = int(input())
+    n = int(input())
     hashp = [[] for i in range (m)]
     hash_ = []
     for i in range(n):
-        hash_.append(f.readline().split())
+        hash_.append(input().split())
         it = hashing(hash_[i])
         if it != None:
             print(it)
-    f.close()
-    
-    
-    
