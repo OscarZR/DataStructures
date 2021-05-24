@@ -95,7 +95,7 @@ if __name__ == '__main__':
     prime = 1000000007
     x = 263
     
-    f = open("01.txt", "r")
+    f = open("01.txt", "r")             #Toy example
     m = int(f.readline())
     n = int(f.readline())
     hashp = [[] for i in range (m)]
