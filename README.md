@@ -36,7 +36,7 @@ In this script we use a toy example: <br>
     HellO 
     GooD luck
    ```
-b). **Substring equality**. In this program, you can input a string s, followed by a sequence of n triplets of integers: [a,b,l]. "a" is the index where yor first substring is going to begin, "b" is the index where yor second substring is going to begin and "l" is the length of both substrings. The program must print for each n triplets "yes" if the substrings are equal or "no" if not. <br>
+b). **Substring equality**. In this program, you can input a string s, followed by an integer n and a sequence of n triplets of integers: [a,b,l]. "a" is the index where yor first substring is going to begin, "b" is the index where yor second substring is going to begin and "l" is the length of both substrings. The program must print for each n triplets "yes" if the substrings are equal or "no" if not. <br>
   Toy Example:
   ```
   trololo
