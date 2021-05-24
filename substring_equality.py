@@ -53,20 +53,10 @@ def precomputeH(S):
 if __name__ == '__main__':
     prime1,prime2 = int(1e9) + 7,int(1e9) + 9
     x = 263
-    #s = sys.stdin.readline()
-    #q = int(sys.stdin.readline())
-    
-    #Example
-    s = "trololo"
+    s = sys.stdin.readline()
+    q = int(sys.stdin.readline())
     hash1, hash2 = precomputeH(s)
-    q = 4
-    qu = [[0,0,7],[2,4,3],[3,5,1],[1,3,2]]
 
 for i in range(q):
-    #a, b, l = map(int, sys.stdin.readline().split())
-    a, b, l = qu[i]
+    a, b, l = map(int, sys.stdin.readline().split())
     print("Yes" if solver(a, b, l) else "No")
-	
-    
-    
-   
