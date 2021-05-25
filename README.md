@@ -20,16 +20,20 @@ Output:
  ```
 Explanation: 
 After swapping elements 4 in position 1 and 1 in position 4 the array becomes 5 1 3 2 4
+
 After swapping elements 5 in position 0 and 1 in position 1 the array becomes 1 5 3 2 4
+
 After swapping elements 5 in position 1 and 2 in position 3 the array becomes 1 2 3 5 4, this is already a heap.
-\\
+
+
 b) **Merging Tables **. In this problem, our goal is to simulate a sequence of merge operations with tables in a database. All tables share the same set of columns.
 We need to perform n of the following operations: <ul>
    <li> Consider table number destination. Traverse the path of symbolic links to get to the data. </li>
    <li> Consider the table number source, and traverse the path of symbolic links from it in the same manner as for destination. </li>
    <li> Now, destination and source, are the numbers of two tables with real data. If destination != source. copy all the rows from table source, to table destination, then clear the table source and instead of real data put a symbolic link to destination into it. </li>
    <li> Print the maximum size among all n tables . If the table contains only a symbolic link, its size is considered to be 0. </li></ul>
-\\
+
+
 Toy example: <br>
  ```
  Input:
