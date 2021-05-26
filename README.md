@@ -4,6 +4,38 @@ More specifically, the scripts in this repository are inspired in selected exerc
 Contributors: Oscar Zendejas Rangel @OscarZR, Alan García Zermeño @garciaza2015, Luis Celedon, y Emilio Villa @villacu <br>
 The following are short explanations of the scripts presented:
 
+## 1. Basic Data Structures: <br>
+a) **Check brackets in the code** All brackets in the code should be divided into pairs of matching brackets, such that in each pair the opening bracket goes before the closing bracket, and for any two pairs of brackets either one of them is nested inside another one as in (foo[bar]) or they are separate as in f(a,b)-g[c]. The bracket [ corresponds to the bracket ], { corresponds to }, and ( corresponds to ).
+Apart from the brackets, code can contain big and small latin letters, digits and punctuation marks.
+If the code in 𝑆 uses brackets correctly, output “Success" (without the quotes). 
+Toy example 1: <br>
+ ```
+Input:
+[()]
+
+Output:
+Success
+ ```
+ Toy example 2: <br>
+ ```
+Input:
+foo(bar[i);
+
+Output:
+10
+ ```
+ 
+ b) **Compute tree height** You are given a description of a rooted tree. Your task is to compute and output its height. Recall that the height of a (rooted) tree is the maximum depth of a node, or the maximum distance from a leaf to the root. You are given an arbitrary tree, not necessarily a binary tree. 
+ Toy example 1: <br>
+  ```
+Input:
+5
+4 -1 4 1 1
+
+Output:
+3
+ ```
+ 
 ## 2. Priority ques and Disjoint Sets: <br>
 a) **Array to hipe**. In this problem we will convert an array of integers into a heap. This is an important step to understand sorting.
 Toy example: <br>
