@@ -25,6 +25,7 @@ After swapping elements 5 in position 0 and 1 in position 1 the array becomes 1 
 
 After swapping elements 5 in position 1 and 2 in position 3 the array becomes 1 2 3 5 4, this is already a heap.
 
+Video example: https://drive.google.com/file/d/1NI4d3eSQHp3RxpgukNjzMqXVNYQgErc6/view?usp=sharing
 
 b) **Merging Tables **. In this problem, our goal is to simulate a sequence of merge operations with tables in a database. All tables share the same set of columns.
 We need to perform n of the following operations: <ul>
@@ -52,6 +53,9 @@ Toy example: <br>
  5
  5
  ```
+ 
+ Video example: https://drive.google.com/file/d/1NI4d3eSQHp3RxpgukNjzMqXVNYQgErc6/view?usp=sharing
+ 
 ## 3. Hash:<br>
 a). **Hash chains**. In this program we built a hash table using the chaining scheme in a telephone schedule, we call instructions: <ul>
 <li> add string — insert string into the table. If there is already such string in the hash table, then just ignore the query. </li>
